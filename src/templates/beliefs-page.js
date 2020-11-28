@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Content, { HTMLContent } from '../components/Content';
-import Layout from '../components/Layout';
-import MiniHero from '../components/MiniHero';
-import ourBeliefsImage from '../img/our-beliefs.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import Layout from "../components/Layout";
+import MiniHero from "../components/MiniHero";
+import OurBeliefsImage from "../img/prayer-on-coast.jpg";
 
 export const BeliefsPageTemplate = ({
   title,
@@ -12,10 +12,36 @@ export const BeliefsPageTemplate = ({
   content,
   contentComponent,
 }) => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+
+    script.async = true;
+    script.innerHTML = `
+      var refTagger = {
+        settings: {
+          bibleVersion: "KJV",
+          socialSharing: [],
+          tooltipStyle: "dark",
+        },
+      };
+      (function (d, t) {
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = "//api.reftagger.com/v2/RefTagger.js";
+        s.parentNode.insertBefore(g, s);
+      })(document, "script");
+      `;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const PageContent = contentComponent || Content;
   return (
     <>
-      <MiniHero image={ourBeliefsImage} title={title} subtitle={subtitle} />
+      <MiniHero image={OurBeliefsImage} title={title} subtitle={subtitle} />
       <section className="section section--gradient">
         <PageContent className="content beliefs" content={content} />
       </section>

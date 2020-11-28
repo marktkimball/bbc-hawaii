@@ -1,9 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import logo from '../img/logo.png';
-import FacebookIcon from '../img/social/facebook.svg';
-import YoutubeIcon from '../img/social/youtube.svg';
-import './footer.scss';
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../img/bbc-logo.png";
+import FacebookIcon from "../img/social/facebook.svg";
+import "./footer.scss";
 
 const Footer = class extends React.Component {
   render() {
@@ -12,8 +11,8 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Branch Hill Baptist Church"
-            style={{ width: '14em', height: '3.78em' }}
+            alt="Bible Baptist Church"
+            style={{ width: "14em", height: "3.78em" }}
           />
         </div>
         <div className="content">
@@ -25,12 +24,6 @@ const Footer = class extends React.Component {
                   <Link to="/beliefs">Our Beliefs</Link>
                 </li>
                 <li>
-                  <Link to="/history">Our History</Link>
-                </li>
-                <li>
-                  <Link to="/missions">Missions</Link>
-                </li>
-                <li>
                   <Link to="/leadership">Leadership</Link>
                 </li>
               </ul>
@@ -39,32 +32,33 @@ const Footer = class extends React.Component {
               <h4>Contact</h4>
               <ul className="footer-link-list contact-list">
                 <li>
-                  <a className="clickable-link" href="tel:5136833663">
-                    phone: (513) 683-3663
+                  <a className="clickable-link" href="tel:8082683115">
+                    phone: (808) 268-3115
                   </a>
                 </li>
                 <li>
-                  <a className="clickable-link" href="mailto:info@branchhill.org">
-                    email: info@branchhill.org
+                  <a
+                    className="clickable-link"
+                    href="mailto:contact@bbchawaii.com"
+                  >
+                    email: contact@bbchawaii.com
                   </a>
                 </li>
-                <li>fax: (513) 683-4685</li>
               </ul>
             </div>
             <div className="footer-list-group">
               <h4>Visit</h4>
               <ul className="footer-link-list contact-list">
-                <li>Sunday: 11am & 6pm</li>
-                <li>Wednesday: 7pm</li>
+                <li>Sunday: 10am</li>
                 <li>
                   <a
                     className="visit-us-link"
-                    href="https://goo.gl/maps/88B9rQsy9huwo7dy7"
+                    href="https://goo.gl/maps/6u7N1fNT8cQG8Zhn6"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <div>6526 Branch Hill-Guinea Pike</div>
-                    <div>Loveland, Ohio 45140</div>
+                    <div>1234 North Shore Avenue</div>
+                    <div>Oahu, Hawaii 96814</div>
                   </a>
                 </li>
               </ul>
@@ -73,10 +67,10 @@ const Footer = class extends React.Component {
         </div>
         <div className="content">
           <div className="container copyright">
-            Copyright © {new Date().getFullYear()} Branch Hill Baptist Church.
-            All rights reserved.
+            Copyright © {new Date().getFullYear()} Bible Baptist Church. All
+            rights reserved.
             <p>
-              Created by{' '}
+              Created by{" "}
               <a
                 className="copyright-link"
                 href="https://marktkimball.github.io/"
@@ -101,20 +95,7 @@ const Footer = class extends React.Component {
                 className="social-icon"
                 src={FacebookIcon}
                 alt="Facebook"
-                style={{ width: '1.5em', height: '1.5em' }}
-              />
-            </a>
-            <a
-              title="youtube"
-              href="https://www.youtube.com/channel/UCAxOzmmPhv2SAyaA1z69zJg/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="social-icon"
-                src={YoutubeIcon}
-                alt="YouTube"
-                style={{ width: '1.5em', height: '1.5em' }}
+                style={{ width: "1.5em", height: "1.5em" }}
               />
             </a>
           </div>

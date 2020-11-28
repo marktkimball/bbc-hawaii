@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 // Fix Me
 .is-in-past {
   opacity: 0.5;
@@ -20,18 +22,19 @@ article.event-list-item.tile {
   div {
     a.event-button {
       background: transparent;
-      border: 2px solid #1d3754;
-      color: #1d3754;
+      border: 2px solid $brand-primary;
+      color: $brand-primary;
       display: inline-block;
       font-size: 16px;
       font-weight: bold;
       min-width: 150px;
       padding: 8px 32px;
-      transition: background 300ms ease-in-out, color 300ms ease-in-out;
+      transition: all 300ms ease-in-out, color 300ms ease-in-out;
       text-decoration: none;
 
       &:hover {
-        background: #1d3754;
+        background: $brand-secondary;
+        border-color: $brand-secondary;
         color: #fff;
       }
     }

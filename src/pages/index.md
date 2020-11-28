@@ -1,8 +1,9 @@
 ---
 templateKey: index-page
-title: Branch Hill Baptist Church
-image: /img/06-bible-bkg-2.jpeg
-logo: /img/bhbclarge.png
-missionStatement: Growing in the Word   ❦   Proclaiming by Grace
+title: Bible Baptist Church
+image: /img/hawaii-sunset.jpg
+logo: /img/bbc-logo.png
+missionStatement: The righteous shall flourish like the palm tree.
+missionSubStatement: Psalm 92:12a
 announcementTitle: Special Announcements
 ---

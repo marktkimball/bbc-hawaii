@@ -1,12 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import PictureCTAContainer from '../components/PictureCTA';
-import WelcomeImage from '../img/welcome.jpg';
-import SundaySchoolImage from '../img/sunday-school.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import PictureCTAContainer from "../components/PictureCTA";
+import WelcomeImage from "../img/aloha-tower.jpg";
+import AboutUsImage from "../img/beach-from-water.jpg";
+import EventsImage from "../img/beach-campfire.jpg";
 
-export const IndexPageTemplate = ({ missionStatement, image, logo }) => (
+export const IndexPageTemplate = ({
+  missionStatement,
+  missionSubStatement,
+  image,
+}) => (
   <div>
     <div
       className="home-jumbotron depth-4"
@@ -18,31 +23,28 @@ export const IndexPageTemplate = ({ missionStatement, image, logo }) => (
     >
       <div
         style={{
-          maxWidth: '80%',
+          maxWidth: "80%",
         }}
       >
-        <img
-          alt="logo"
-          src={!!logo.childImageSharp ? logo.childImageSharp.fluid.src : logo}
-        />
+        <h1 className="headline-text jumbotron-title-text">
+          Bible Baptist Church
+        </h1>
       </div>
       <div className="jumbotron-info-text-container">
-        <h2 className="info-text headline-text">Loveland, Ohio</h2>
-        <h2 className="info-text headline-text">Sunday Worship - 11am</h2>
+        <h2 className="info-text headline-text">Oahu, Hawaii</h2>
+        <h2 className="info-text headline-text">Sunday Worship - 10am</h2>
       </div>
     </div>
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container mission-container">
         <h1 className="title headline-text main-pitch">{missionStatement}</h1>
+        <p className="mission-sub-statement">{missionSubStatement}</p>
       </div>
       <PictureCTAContainer
         items={[
-          { image: WelcomeImage, title: "I'm New", to: '/im-new' },
-          {
-            image: SundaySchoolImage,
-            title: 'Sunday School',
-            to: '/sunday-school',
-          },
+          { image: WelcomeImage, title: "I'm New", to: "/im-new" },
+          { image: AboutUsImage, title: "About Us", to: "/about" },
+          { image: EventsImage, title: "Upcoming Events", to: "/events" },
         ]}
       />
     </section>
@@ -51,8 +53,8 @@ export const IndexPageTemplate = ({ missionStatement, image, logo }) => (
 
 IndexPageTemplate.propTypes = {
   missionStatement: PropTypes.string,
+  missionSubStatement: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const IndexPage = ({ data }) => {
@@ -62,8 +64,8 @@ const IndexPage = ({ data }) => {
     <Layout announcementTitle={frontmatter.announcementTitle}>
       <IndexPageTemplate
         missionStatement={frontmatter.missionStatement}
+        missionSubStatement={frontmatter.missionSubStatement}
         image={frontmatter.image}
-        logo={frontmatter.logo}
       />
     </Layout>
   );
@@ -85,16 +87,10 @@ export const pageQuery = graphql`
       frontmatter {
         announcementTitle
         missionStatement
+        missionSubStatement
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        logo {
-          childImageSharp {
-            fluid(maxWidth: 600, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -1,19 +1,8 @@
-@import '~bulma/sass/utilities/initial-variables';
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;800&family=Work+Sans&display=swap');
-
-// Config vars
-$brand-primary: #1d3754;
-$brand-secondary: #ce6857;
-$brand-primary-text: #1d3754;
-$brand-primary-text-invert: #fff;
-
-$primary: $brand-primary-text;
-$primary-invert: $brand-primary-text-invert;
-$body-color: #333;
-$black: #2b2523;
+@import "~bulma/sass/utilities/initial-variables";
+@import "./variables.scss";
 
 body {
-  font-family: 'Work Sans', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
 }
 
 .special-announcements-banner {
@@ -64,6 +53,12 @@ body {
   margin-top: 0;
 }
 
+.jumbotron-title-text {
+  color: #fff;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
 .jumbotron-info-text-container {
   margin-top: 64px;
   text-align: center;
@@ -93,7 +88,7 @@ body {
 }
 
 .icon {
-  color: #1d3754;
+  color: $brand-primary;
 
   svg {
     width: 1.5rem;
@@ -116,7 +111,17 @@ body {
   margin: 0 1.5em 0 0;
 }
 
-@import '~bulma';
+@import "~bulma";
+
+.mission-container {
+  margin-bottom: 4.2rem;
+}
+
+.mission-sub-statement {
+  text-align: right;
+  font-style: italic;
+  font-size: 2.4rem;
+}
 
 .home-jumbotron {
   width: 100%;
@@ -131,21 +136,21 @@ body {
 }
 
 .headline-text {
-  font-family: 'Eczar', serif;
+  font-family: "Playball", serif;
   font-weight: bold;
 }
 
 .sub-headline-text {
-  font-family: 'Eczar', serif;
+  font-family: "Playball", serif;
 }
 
 .alt-headline-text {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
 .body-text {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .main-pitch {
@@ -157,7 +162,7 @@ a {
   color: #2f5989;
 
   &:hover {
-    color: #1d3754;
+    color: $brand-primary;
     text-decoration: underline;
   }
 }
@@ -183,6 +188,10 @@ a {
 
   .home-jumbotron {
     background-attachment: scroll;
+  }
+
+  .mission-sub-statement {
+    font-size: 1.6rem;
   }
 }
 

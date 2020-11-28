@@ -3,4 +3,5 @@ templateKey: announcements-page
 path: /announcements
 title: Announcements
 ---
-There are no special announcements at this time.
+
+Here's a special announcement!

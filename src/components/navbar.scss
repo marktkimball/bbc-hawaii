@@ -1,8 +1,10 @@
+@import "./variables.scss";
+
 .menu-container {
   position: relative;
   display: flex;
   align-items: center;
-  background: #1d3754;
+  background: $brand-primary;
   color: #cdcdcd;
   padding: 20px;
   -webkit-user-select: none;
@@ -23,12 +25,12 @@
 
 .menu-container a {
   text-decoration: none;
-  color: #1d3754;
+  color: $brand-primary;
   transition: color 0.3s ease;
 }
 
 .menu-container a:hover {
-  color: #ce6857;
+  color: $brand-secondary;
   text-decoration: none;
 }
 
@@ -70,7 +72,7 @@
 .menu-container input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(3px, -1px);
-  background: #1d3754;
+  background: $brand-primary;
 }
 
 .menu-container input:checked ~ span:nth-child(4) {
@@ -172,10 +174,12 @@
     .nav-item-cta {
       border: 1px solid #fff;
       padding: 4px 20px;
-      transition: background 0.3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
-        background: #fff;
+        background: $brand-secondary;
+        border-color: $brand-secondary;
+        color: #fff;
       }
     }
   }

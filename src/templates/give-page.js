@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Content, { HTMLContent } from '../components/Content';
-import Layout from '../components/Layout';
-import MiniHero from '../components/MiniHero';
-import GiveImage from '../img/give.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import Layout from "../components/Layout";
+import MiniHero from "../components/MiniHero";
+import GiveImage from "../img/hawaii-beach.jpg";
 
 export const GivePageTemplate = ({
   title,
@@ -45,7 +45,7 @@ export const GivePageTemplate = ({
                 height="1"
                 hidden=""
                 src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-                style={{ display: 'none' }}
+                style={{ display: "none" }}
                 width="1"
               />
             </form>

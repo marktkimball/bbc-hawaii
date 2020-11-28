@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Logo from '../img/monogram.svg';
-import './navbar.scss';
+import React from "react";
+import { Link } from "gatsby";
+import Logo from "../img/logo-only.png";
+import "./navbar.scss";
 
 const Navbar = () => (
   <nav className="depth-3 menu-container">
@@ -9,8 +9,8 @@ const Navbar = () => (
     <span></span>
     <span></span>
     <span></span>
-    <Link to="/" className="menu-logo" title="Branch Hill Baptist Church">
-      <img alt="Branch Hill Baptist Church Logo" src={Logo} />
+    <Link to="/" className="menu-logo" title="Bible Baptist Church">
+      <img alt="Bible Baptist Church Logo" src={Logo} />
     </Link>
 
     <div className="menu">
@@ -22,19 +22,16 @@ const Navbar = () => (
           <Link to="/about">About</Link>
         </li>
         <li>
+          <Link to="/beliefs">Our Beliefs</Link>
+        </li>
+        <li>
           <Link to="/events">Events</Link>
-        </li>
-        <li>
-          <Link to="/sermons">Sermons</Link>
-        </li>
-        <li>
-          <Link to="/give">Give</Link>
         </li>
       </ul>
       <ul>
         <li className="nav-item-cta-container">
-          <Link className="nav-item-cta" to="/live-stream">
-            Live
+          <Link className="nav-item-cta" to="/give">
+            Giving
           </Link>
         </li>
       </ul>

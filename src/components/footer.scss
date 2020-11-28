@@ -1,6 +1,8 @@
+@import "./variables.scss";
+
 footer.footer {
   padding: 3rem 0rem;
-  background-color: #1d3754;
+  background-color: $brand-primary;
 }
 
 .footer-list-container {
@@ -34,7 +36,7 @@ footer.footer {
       transition: all 200ms ease-in-out;
 
       &:hover {
-        color: #fff;
+        color: $brand-secondary;
         text-decoration: underline;
       }
     }
@@ -60,13 +62,14 @@ footer.footer {
 
 .copyright {
   color: #fafafa;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 
   .copyright-link {
     color: #fafafa;
 
     &:hover {
+      color: $brand-secondary;
       text-decoration: underline;
     }
   }

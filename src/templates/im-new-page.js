@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Content, { HTMLContent } from '../components/Content';
-import Features from '../components/Features';
-import Layout from '../components/Layout';
-import MiniHero from '../components/MiniHero';
-import ImNewImage from '../img/im-new.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Content, { HTMLContent } from "../components/Content";
+import Features from "../components/Features";
+import Layout from "../components/Layout";
+import MiniHero from "../components/MiniHero";
+import ImNewImage from "../img/diamond-head.jpg";
 
 export const ImNewPageTemplate = ({
   title,

@@ -2,43 +2,21 @@
 templateKey: leadership-page
 path: /leadership
 title: Leadership
-subtitle: Meet Our Staff
-lead: Our senior leaders are one team that exists to serve, using their gifts,
-  energy, and resources to make church great for everyone.
+subtitle: Meet our staff
 staff:
-  - name: Joel Greer
-    subtitle: Senior Pastor
-    image: /img/pastor-sonya.png
+  - name: Thomas & Angie Castellaw
+    subtitle: Teaching Pastor
+    image: /img/castellaws.jpg
     bio: >
-      Pastor Greer was called to preach 35 years ago and has been the pastor of
-      Branch Hill Baptist Church for the past 33 years. A student of the
-      scriptures, he places a great importance on studying the Word of God. His
-      ministry has been one of teaching and equiping the saints. He and his
-      wife, Sonya, have four children and have resided in Loveland for the past
-      30 years.
-  - name: Arnold Dykes
-    subtitle: Deacon
-    image: /img/ArnoldCarolynDykes.jpg
-    bio: >
-      Brother Arnold Dykes has been a member of Branch Hill for the past 32
-      years. Arnold has served faithfully as deacon for most of those years. He
-      and his wife, Carolyn, serve our seniors and in our Sunday School. They
-      also have a ministry to local nursing homes. Arnold and Carolyn are the
-      parents of three children.
-  - name: Jim Blankenship
-    subtitle: Missions Manager
-    image: /img/jim-brenda-blankenship.jpg
-    bio: >
-      Brother Jim Blankenship has served for most of his 30-plus years at Branch
-      Hill in the area of his passion. Brother Jim's love for missions is clear
-      in the labor and dedication he has given to this service. Brother Jim and
-      his wife, Brenda, have lived in the area all their lives and have a son
-      and daughter-in-law who live in North Carolina.
+      Pastor & Mrs. Angie are happy to be starting a church here in Oahu. If you like tell-it-like-it-is, plain Bible teaching and preaching, we might have the church for you.​
 ---
-## From the Pastor
 
-My wife, Sonya, and I are glad you stopped by the website. We have designed it with you in mind, hoping it will be a source of spiritual insight and benefit—but then again, that's the focus of our church. We came to Branch Hill in February of 1987, a young and excited couple seeking to serve the Lord and be a blessing to people. It's sort of ironic that I pastor the church, since I attended this church from age 12 through my teen years. I left seeking fun, friends, and pleasure, but after a few years away from the Lord, I returned with a wife and a will to minister the Word of God that had ministered to me during some very difficult times. Although I was saved at the early age of six, I had never discovered the fellowship and joy one can have with the Lord through the pages of the Bible. It had been to me much like it is to many Christians…a closed book. Yet in the dark days of emotional distress and depression, I found a comfort in the Word of God that I had always heard about but never experienced. It was this experience that has molded the focus of my ministry and, thus, the focus of our church—growing in grace and in our walk with Jesus Christ through the Word of God. We still believe people would like to understand the Bible, but many have become disillusioned.
+# Why we're here
 
-We are a church that believes the Bible, loves the Bible, reads and studies the Bible. We have found a fellowship and unity that is supernaturally produced by that fellowship. It is what the Apostle Paul called the "fellowship of the gospel." We would love to have you visit and find out what THE BOOK is all about. We don't care a lot for religion, but we love the Lord and enjoy learning more about Him through the pages of his Word. After all, it was Jesus who said, "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls." We hope you come out and discover what that rest is all about!
+Here you'll include information about why the church is being planted, what the goal is, and why Hawaii.
 
-If you find you are looking for a group of people that are more like family, or ir you need someone to talk to about questions you have about life, challenges, or other concerns, we want to be there for you. Please feel free to contact us any time and let us know how we can help.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut imperdiet tellus, nec gravida dui. Sed iaculis nisl vel varius posuere. Vestibulum commodo tortor vitae orci hendrerit rutrum. Vivamus ut bibendum sem, varius fermentum ipsum. Vestibulum dapibus augue et ultricies pretium. Proin mattis mi nec dui molestie, facilisis tristique ipsum aliquet. Fusce eu congue nisi. Nullam sit amet urna aliquam, posuere nisl id, cursus velit. Suspendisse interdum sit amet nisi et porta. Donec id magna tortor. Vestibulum nec dui at erat lobortis commodo quis quis nisi. Morbi ultricies neque tortor, non vulputate arcu efficitur vitae. Nam fermentum sed augue a sagittis.
+
+Etiam hendrerit sodales aliquet. Phasellus ac tempus mauris. Proin id justo in leo dictum fringilla. Nam et ornare tellus, varius mollis eros. Pellentesque nisi nunc, suscipit ut odio vel, congue placerat urna. Donec auctor tincidunt lacus, sed consequat metus viverra ut. Mauris ac consequat elit.
+
+Duis ac magna risus. Phasellus consectetur, nulla a euismod tristique, felis urna fringilla arcu, eu condimentum libero nunc id metus. Maecenas tempus ligula eget ipsum faucibus posuere. Vestibulum eget ante nisi. Nam porta libero nec diam dapibus, vitae rhoncus arcu consequat. Sed sagittis neque in magna ornare vehicula. Quisque rutrum sagittis orci, eget vehicula diam euismod id.

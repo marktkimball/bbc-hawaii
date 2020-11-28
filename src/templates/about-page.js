@@ -1,17 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import MiniHero from '../components/MiniHero';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
-import PictureCTAContainer from '../components/PictureCTA';
-import AboutUsImage from '../img/about-us.jpg';
-import MissionsImage from '../img/missions.jpg';
-import LeadershipImage from '../img/leadership.jpg';
-import OurBeliefsImage from '../img/our-beliefs.jpg';
-import OurHistoryImage from '../img/our-history.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import MiniHero from "../components/MiniHero";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
+import PictureCTAContainer from "../components/PictureCTA";
+import AboutUsImage from "../img/holding-bible.jpg";
+import LeadershipImage from "../img/hawaii-beach.jpg";
+import OurBeliefsImage from "../img/prayer-on-coast.jpg";
 
-import './pages.scss';
+import "./pages.scss";
 
 export const AboutPageTemplate = ({
   title,
@@ -27,10 +25,8 @@ export const AboutPageTemplate = ({
         <PageContent className="content" content={content} />
         <PictureCTAContainer
           items={[
-            { image: OurBeliefsImage, title: 'Our Beliefs', to: '/beliefs' },
-            { image: OurHistoryImage, title: 'Our History', to: '/history' },
-            { image: MissionsImage, title: 'Missions', to: '/missions' },
-            { image: LeadershipImage, title: 'Leadership', to: '/leadership' },
+            { image: OurBeliefsImage, title: "Our Beliefs", to: "/beliefs" },
+            { image: LeadershipImage, title: "Leadership", to: "/leadership" },
           ]}
         />
       </section>
