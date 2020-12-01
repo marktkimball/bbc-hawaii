@@ -39,7 +39,7 @@
   width: 35px;
   height: 25px;
   margin: 0;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
@@ -52,7 +52,7 @@
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
+  position: fixed;
   background: #cdcdcd;
   border-radius: 3px;
   z-index: 1;
@@ -65,14 +65,23 @@
   transform-origin: 0% 0%;
 }
 
+.menu-container span:nth-child(2) {
+  top: 12px;
+}
+
 .menu-container span:nth-child(3) {
   transform-origin: 0% 100%;
+  top: 22px;
+}
+
+.menu-container span:nth-child(4) {
+  top: 32px;
 }
 
 .menu-container input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(3px, -1px);
-  background: $brand-primary;
+  background: #fff;
 }
 
 .menu-container input:checked ~ span:nth-child(4) {
@@ -86,10 +95,11 @@
 
 .menu ul {
   list-style: none;
+  text-align: center;
 }
 
 .menu li {
-  padding: 10px 0;
+  padding: 24px 0;
   font-size: 20px;
 }
 
@@ -98,6 +108,9 @@
   .menu-container {
     flex-direction: column;
     align-items: flex-end;
+    height: 52px;
+    position: fixed;
+    width: 100%;
   }
 
   .menu-logo {
@@ -112,23 +125,34 @@
   }
 
   .menu {
-    position: absolute;
-    box-sizing: border-box;
-    width: 300px;
-    right: -300px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
     top: 0;
-    margin: -20px;
-    padding: 75px 50px 50px;
-    background: #cdcdcd;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
+    width: 100%;
+    background: $brand-primary;
+    height: 100vh;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     transform-origin: 0% 0%;
-    transform: translateX(0%);
+    transform: translateY(-100%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+    li {
+      font-size: 28px;
+
+      a {
+        color: $brand-tertiary;
+      }
+    }
   }
 
   .menu-container input:checked ~ .menu {
-    transform: translateX(-100%);
+    transform: translateY(0%);
   }
 }
 

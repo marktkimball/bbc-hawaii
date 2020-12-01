@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PictureCTAContainer from "../components/PictureCTA";
 import AboutUsImage from "../img/holding-bible.jpg";
-import LeadershipImage from "../img/hawaii-beach.jpg";
+import LeadershipImage from "../img/hawaii-jungle.jpg";
 import OurBeliefsImage from "../img/prayer-on-coast.jpg";
 
 import "./pages.scss";

@@ -31,8 +31,6 @@ items:
     lead: Do you have a nursery?
     text: >
       At the moment, we do not. As the church grows we will provide nursery for babies and toddlers. We love children in the services, so don't be shy about bringing your whole family!
-
-intro: []
 ---
 
 We are so happy that you are interested in joining us on Sunday! We are a new church on the North Shore of Oahu and look forward to your visit. Below you will find helpful information about our church and services. Please be aware that as we are a brand new church we currently meet in a tent on our property. Visit our About page to learn more about our story.

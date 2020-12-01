@@ -11,6 +11,8 @@ export const IndexPageTemplate = ({
   missionStatement,
   missionSubStatement,
   image,
+  title,
+  infoText,
 }) => (
   <div>
     <div
@@ -26,13 +28,12 @@ export const IndexPageTemplate = ({
           maxWidth: "80%",
         }}
       >
-        <h1 className="headline-text jumbotron-title-text">
-          Bible Baptist Church
-        </h1>
+        <h1 className="headline-text jumbotron-title-text">{title}</h1>
       </div>
       <div className="jumbotron-info-text-container">
-        <h2 className="info-text headline-text">Oahu, Hawaii</h2>
-        <h2 className="info-text headline-text">Sunday Worship - 10am</h2>
+        {infoText.map((text) => (
+          <h2 className="info-text headline-text">{text}</h2>
+        ))}
       </div>
     </div>
     <section className="section section--gradient">
@@ -55,6 +56,8 @@ IndexPageTemplate.propTypes = {
   missionStatement: PropTypes.string,
   missionSubStatement: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  title: PropTypes.string,
+  infoText: PropTypes.arrayOf(PropTypes.string),
 };
 
 const IndexPage = ({ data }) => {
@@ -66,6 +69,8 @@ const IndexPage = ({ data }) => {
         missionStatement={frontmatter.missionStatement}
         missionSubStatement={frontmatter.missionSubStatement}
         image={frontmatter.image}
+        title={frontmatter.title}
+        infoText={frontmatter.infoText}
       />
     </Layout>
   );
@@ -88,6 +93,8 @@ export const pageQuery = graphql`
         announcementTitle
         missionStatement
         missionSubStatement
+        title
+        infoText
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {

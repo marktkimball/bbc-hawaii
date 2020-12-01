@@ -5,7 +5,7 @@ import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 import StaffMembers from "../components/StaffMembers";
 import MiniHero from "../components/MiniHero";
-import leadershipImage from "../img/hawaii-beach.jpg";
+import leadershipImage from "../img/hawaii-jungle.jpg";
 
 export const LeadershipPageTemplate = ({
   staff,

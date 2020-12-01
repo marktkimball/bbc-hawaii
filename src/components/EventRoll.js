@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery } from 'gatsby';
-import './events.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import "./events.scss";
 
 class EventRoll extends React.Component {
   render() {
@@ -23,8 +23,8 @@ class EventRoll extends React.Component {
               <div className="is-parent column is-6" key={post.id}>
                 <article
                   className={`event-list-item tile is-child box notification ${
-                    post.frontmatter.featuredEvent ? 'is-featured' : ''
-                  } ${isInPast ? 'is-in-past' : ''}`}
+                    post.frontmatter.featuredEvent ? "is-featured" : ""
+                  } ${isInPast ? "is-in-past" : ""}`}
                 >
                   <header>
                     <div className="post-meta">

@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../../components/Layout';
-import EventRoll from '../../components/EventRoll';
-import MiniHero from '../../components/MiniHero';
-import EventsImage from '../../img/events.jpg';
+import Layout from "../../components/Layout";
+import EventRoll from "../../components/EventRoll";
+import MiniHero from "../../components/MiniHero";
+import EventsImage from "../../img/events.jpg";
 
 export default class EventsIndexPage extends React.Component {
   render() {
@@ -12,7 +12,7 @@ export default class EventsIndexPage extends React.Component {
         <MiniHero
           image={EventsImage}
           title="Upcoming Events"
-          subtitle="Gather with Us"
+          subtitle="Gather with us"
         />
         <section className="section">
           <div className="container">
