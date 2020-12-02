@@ -10,6 +10,7 @@ import BeliefsPagePreview from "./preview-templates/BeliefsPagePreview";
 import CreditsPagePreview from "./preview-templates/CreditsPagePreview";
 import GivePagePreview from "./preview-templates/GivePagePreview";
 import LeadershipPagePreview from "./preview-templates/LeadershipPagePreview";
+import FooterPreview from "./preview-templates/FooterPreview";
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -22,3 +23,4 @@ CMS.registerPreviewTemplate("beliefs", BeliefsPagePreview);
 CMS.registerPreviewTemplate("credits", CreditsPagePreview);
 CMS.registerPreviewTemplate("give", GivePagePreview);
 CMS.registerPreviewTemplate("leadership", LeadershipPagePreview);
+CMS.registerPreviewTemplate("footer", FooterPreview);

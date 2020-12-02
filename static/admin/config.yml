@@ -148,7 +148,6 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Lead, name: lead, widget: string }
           - {
               label: Staff,
               name: staff,
@@ -174,3 +173,25 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/_footer.md"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - { label: "Name", name: "name", widget: "hidden", default: "footer" }
+          - {
+              label: "Type",
+              name: "type",
+              widget: "hidden",
+              default: "page-content",
+            }
+          - { label: Service Time, name: serviceTime, widget: string }
+          - { label: Phone Number, name: phoneNumber, widget: string }
+          - { label: Email Address, name: emailAddress, widget: string }
+          - { label: Address - Line 1, name: addressLineOne, widget: string }
+          - { label: Address - Line 2, name: addressLineTwo, widget: string }
+          - { label: Google Maps Link, name: googleMapsLink, widget: string }
+          - { label: Facebook Link, name: facebookLink, widget: string }
+          - { label: Twitter Link, name: twitterLink, widget: string }
+          - { label: Instagram Link, name: instagramLink, widget: string }
+          - { label: YouTube Link, name: youtubeLink, widget: string }
+          - { label: Vimeo Link, name: vimeoLink, widget: string }

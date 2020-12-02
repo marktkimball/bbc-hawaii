@@ -1,14 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { ImNewPageTemplate } from '../../templates/im-new-page';
+import React from "react";
+import PropTypes from "prop-types";
+import { ImNewPageTemplate } from "../../templates/im-new-page";
 
 const ImNewPreview = ({ entry, widgetFor }) => {
   return (
     <ImNewPageTemplate
-      content={widgetFor('body')}
-      subtitle={entry.getIn(['data', 'subtitle'])}
-      title={entry.getIn(['data', 'title'])}
-      items={entry.getIn(['data', 'items']).toJS()}
+      title={entry.getIn(["data", "title"])}
+      subtitle={entry.getIn(["data", "subtitle"])}
+      items={entry.getIn(["data", "items"]).toJS()}
+      content={widgetFor("body")}
     />
   );
 };

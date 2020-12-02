@@ -1,17 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { EventItemTemplate } from '../../templates/event-item';
+import React from "react";
+import PropTypes from "prop-types";
+import { EventItemTemplate } from "../../templates/event-item";
 
 const EventItemPreview = ({ entry, widgetFor }) => {
-  const tags = entry.getIn(['data', 'tags']);
+  const tags = entry.getIn(["data", "tags"]);
   return (
     <EventItemTemplate
-      content={widgetFor('body')}
-      description={entry.getIn(['data', 'description'])}
+      title={entry.getIn(["data", "title"])}
+      description={entry.getIn(["data", "description"])}
+      featureEvent={entry.getIn(["data", "featuredEvent"])}
+      location={entry.getIn(["data", "location"])}
+      address={entry.getIn(["data", "address"])}
       tags={tags && tags.toJS()}
-      title={entry.getIn(['data', 'title'])}
-      location={entry.getIn(['data', 'location'])}
-      address={entry.getIn(['data', 'address'])}
+      content={widgetFor("body")}
     />
   );
 };

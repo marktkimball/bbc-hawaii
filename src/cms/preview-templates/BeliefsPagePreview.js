@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { BeliefsPageTemplate } from '../../templates/beliefs-page';
+import React from "react";
+import PropTypes from "prop-types";
+import { BeliefsPageTemplate } from "../../templates/beliefs-page";
 
 const BeliefsPagePreview = ({ entry, widgetFor }) => (
   <BeliefsPageTemplate
-    content={widgetFor('body')}
-    subtitle={entry.getIn(['data', 'subtitle'])}
-    title={entry.getIn(['data', 'title'])}
+    title={entry.getIn(["data", "title"])}
+    subtitle={entry.getIn(["data", "subtitle"])}
+    content={widgetFor("body")}
   />
 );
 
