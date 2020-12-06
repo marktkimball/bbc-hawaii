@@ -49,6 +49,11 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Info Text, name: infoText, widget: list }
           - { label: Image, name: image, widget: image }
+          - {
+              label: Current Semon Image (optional),
+              name: currentSermonImage,
+              widget: image,
+            }
           - { label: Logo, name: logo, widget: image }
           - {
               label: "Mission Statement",

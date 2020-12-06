@@ -8,5 +8,6 @@ image: /img/hawaii-sunset.jpg
 logo: /img/bbc-logo.png
 missionStatement: The righteous shall flourish like the palm tree.
 missionSubStatement: Psalm 92:12a
+currentSermonImage: /img/his_name_sermon_series.jpg
 announcementTitle: Special Announcements
 ---

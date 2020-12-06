@@ -11,6 +11,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         title={data.title}
         items={entry.getIn(["data", "infoText"]).toJS()}
         image={getAsset(data.image)}
+        currentSermonImage={getAsset(data.currentSermonImage)}
         logo={data.logo}
         missionStatement={data.missionStatement}
         missionSubStatement={data.missionSubStatement}

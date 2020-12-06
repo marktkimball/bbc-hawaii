@@ -3,16 +3,18 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PictureCTAContainer from "../components/PictureCTA";
-import WelcomeImage from "../img/aloha-tower.jpg";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import AboutUsImage from "../img/beach-from-water.jpg";
 import EventsImage from "../img/beach-campfire.jpg";
+import WelcomeImage from "../img/aloha-tower.jpg";
 
 export const IndexPageTemplate = ({
+  currentSermonImage,
+  image,
+  infoText,
   missionStatement,
   missionSubStatement,
-  image,
   title,
-  infoText,
 }) => (
   <div>
     <div
@@ -41,6 +43,14 @@ export const IndexPageTemplate = ({
         <h1 className="title headline-text main-pitch">{missionStatement}</h1>
         <p className="mission-sub-statement">{missionSubStatement}</p>
       </div>
+      {currentSermonImage && (
+        <div className="section current-sermon-container">
+          <h2 className="alt-headline-text current-sermon-title">
+            Current sermon series:
+          </h2>
+          <PreviewCompatibleImage imageInfo={currentSermonImage} />
+        </div>
+      )}
       <PictureCTAContainer
         items={[
           { image: WelcomeImage, title: "I'm New", to: "/im-new" },
@@ -53,11 +63,12 @@ export const IndexPageTemplate = ({
 );
 
 IndexPageTemplate.propTypes = {
+  currentSermonImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  infoText: PropTypes.arrayOf(PropTypes.string),
   missionStatement: PropTypes.string,
   missionSubStatement: PropTypes.string,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  infoText: PropTypes.arrayOf(PropTypes.string),
 };
 
 const IndexPage = ({ data }) => {
@@ -66,11 +77,12 @@ const IndexPage = ({ data }) => {
   return (
     <Layout announcementTitle={frontmatter.announcementTitle}>
       <IndexPageTemplate
+        currentSermonImage={frontmatter.currentSermonImage}
+        image={frontmatter.image}
+        infoText={frontmatter.infoText}
         missionStatement={frontmatter.missionStatement}
         missionSubStatement={frontmatter.missionSubStatement}
-        image={frontmatter.image}
         title={frontmatter.title}
-        infoText={frontmatter.infoText}
       />
     </Layout>
   );
@@ -91,10 +103,17 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         announcementTitle
+        infoText
         missionStatement
         missionSubStatement
         title
-        infoText
+        currentSermonImage {
+          childImageSharp {
+            fluid(maxWidth: 720, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
