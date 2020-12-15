@@ -1,7 +1,7 @@
 ---
 templateKey: beliefs-page
 path: /beliefs
-title: Our Beliefs
+title: What We Believe
 subtitle: Thy Word Is Truth
 ---
 
