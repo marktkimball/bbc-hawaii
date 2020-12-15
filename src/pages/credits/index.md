@@ -19,5 +19,8 @@ credits:
   - Home page Events photo by Kimson Doan from Unsplash
   - Home page About Us photo by Channey from Unsplash
 ---
-
 Bible Baptist Church would like to give appreciation to the content creators below for helping to make this website possible.
+
+
+
+We have not intentionally violated any copy righted data nor can we ever be 100% sure that links outside this site have been changed or remain in good functioning order. Please let us know if you find anything amiss. Thank you.
