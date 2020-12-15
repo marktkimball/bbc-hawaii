@@ -4,7 +4,6 @@ path: /beliefs
 title: What We Believe
 subtitle: Thy Word Is Truth
 ---
-
 ## The Bible
 
 ​​We believe the Scriptures of the Old and New Testament to be the inspired word of God, the final authority for faith, life and church establishment, inerrant in the original writings, and preserved without error in the English King James Bible. 2 Tim. 3:16, 2 Pet. 1:20-21, Psa. 12:6-7, Lk. 21:33, Isa. 8:20.
@@ -50,7 +49,3 @@ We believe in eternal bliss in heaven for all who are saved through Christ's she
 ## Miscellaneous
 
 We do not accept any form of the Ecumenical or charismatic movement of this day. 2 Cor. 6:14-11, Amos 3:3, 1 Tim. 4:13, 1 Cor. 13:8, 2 Cor. 12:12, 11:4, 13-15, 2 Thess. 2:9.
-
-We are not Calvinists in any point.
-
-We do not listen to, sell, or advocate Contemporary Christian music (CCM).
