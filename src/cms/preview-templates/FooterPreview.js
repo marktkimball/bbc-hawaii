@@ -4,17 +4,17 @@ import { Footer } from "../../components/Footer";
 
 const FooterPreview = ({ entry }) => (
   <Footer
-    serviceTime={entry.getIn(["data", "serviceTime"])}
-    phoneNumber={entry.getIn(["data", "phoneNumber"])}
-    emailAddress={entry.getIn(["data", "emailAddress"])}
     addressLineOne={entry.getIn(["data", "addressLineOne"])}
     addressLineTwo={entry.getIn(["data", "addressLineTwo"])}
-    googleMapsLink={entry.getIn(["data", "googleMapsLink"])}
+    emailAddress={entry.getIn(["data", "emailAddress"])}
     facebookLink={entry.getIn(["data", "facebookLink"])}
-    twitterLink={entry.getIn(["data", "twitterLink"])}
+    googleMapsLink={entry.getIn(["data", "googleMapsLink"])}
     instagramLink={entry.getIn(["data", "instagramLink"])}
-    youtubeLink={entry.getIn(["data", "youtubeLink"])}
+    phoneNumber={entry.getIn(["data", "phoneNumber"])}
+    serviceTime={entry.getIn(["data", "serviceTime"])}
+    twitterLink={entry.getIn(["data", "twitterLink"])}
     vimeoLink={entry.getIn(["data", "vimeoLink"])}
+    youtubeLink={entry.getIn(["data", "youtubeLink"])}
   />
 );
 

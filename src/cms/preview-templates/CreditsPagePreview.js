@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { CreditsPageTemplate } from '../../templates/credits-page';
+import React from "react";
+import PropTypes from "prop-types";
+import { CreditsPageTemplate } from "../../templates/credits-page";
 
 const CreditsPagePreview = ({ entry, widgetFor }) => (
   <CreditsPageTemplate
-    content={widgetFor('body')}
-    title={entry.getIn(['data', 'title'])}
-    credits={entry.getIn(['data', 'credits'])}
+    content={widgetFor("body")}
+    credits={entry.getIn(["data", "credits"])}
+    title={entry.getIn(["data", "title"])}
   />
 );
 

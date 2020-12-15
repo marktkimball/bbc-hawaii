@@ -4,9 +4,9 @@ import { GivePageTemplate } from "../../templates/give-page";
 
 const GivePagePreview = ({ entry, widgetFor }) => (
   <GivePageTemplate
-    title={entry.getIn(["data", "title"])}
-    subtitle={entry.getIn(["data", "subtitle"])}
     content={widgetFor("body")}
+    subtitle={entry.getIn(["data", "subtitle"])}
+    title={entry.getIn(["data", "title"])}
   />
 );
 

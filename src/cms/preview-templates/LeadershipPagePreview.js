@@ -4,10 +4,10 @@ import { LeadershipPageTemplate } from "../../templates/leadership-page";
 
 const LeadershipPagePreview = ({ entry, widgetFor }) => (
   <LeadershipPageTemplate
-    title={entry.getIn(["data", "title"])}
-    subtitle={entry.getIn(["data", "subtitle"])}
-    staff={entry.getIn(["data", "staff"]).toJS()}
     content={widgetFor("body")}
+    staff={entry.getIn(["data", "staff"]).toJS()}
+    subtitle={entry.getIn(["data", "subtitle"])}
+    title={entry.getIn(["data", "title"])}
   />
 );
 

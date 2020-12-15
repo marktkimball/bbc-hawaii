@@ -4,9 +4,9 @@ import { BeliefsPageTemplate } from "../../templates/beliefs-page";
 
 const BeliefsPagePreview = ({ entry, widgetFor }) => (
   <BeliefsPageTemplate
-    title={entry.getIn(["data", "title"])}
-    subtitle={entry.getIn(["data", "subtitle"])}
     content={widgetFor("body")}
+    subtitle={entry.getIn(["data", "subtitle"])}
+    title={entry.getIn(["data", "title"])}
   />
 );
 

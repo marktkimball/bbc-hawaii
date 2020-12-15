@@ -8,14 +8,14 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   if (data) {
     return (
       <IndexPageTemplate
-        title={data.title}
-        items={entry.getIn(["data", "infoText"]).toJS()}
-        image={getAsset(data.image)}
+        announcementTitle={data.announcementTitle}
         currentSermonImage={getAsset(data.currentSermonImage)}
-        logo={data.logo}
+        image={getAsset(data.image)}
+        infoText={entry.getIn(["data", "infoText"]).toJS()}
+        logo={getAsset(data.logo)}
         missionStatement={data.missionStatement}
         missionSubStatement={data.missionSubStatement}
-        announcementTitle={data.announcementTitle}
+        title={data.title}
       />
     );
   } else {
