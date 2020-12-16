@@ -7,7 +7,7 @@ emailAddress: contact@bbchawaii.com
 addressLineOne: 59-319 Alapio Rd
 addressLineTwo: Haleiwa, HI 96712
 googleMapsLink: https://goo.gl/maps/y5ezvvQA6pzJmuH29
-facebookLink: https://www.facebook.com/
+facebookLink: ""
 twitterLink: ""
 instagramLink: ""
 youtubeLink: ""
