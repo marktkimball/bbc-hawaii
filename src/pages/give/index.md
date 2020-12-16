@@ -2,7 +2,7 @@
 templateKey: give-page
 path: /give
 title: Giving
-subtitle: Support our ministry
+subtitle: Support the Lord's Ministry
 ---
 
 Whether you’re giving your tithes or just simply giving a love offering, you can do it online!
