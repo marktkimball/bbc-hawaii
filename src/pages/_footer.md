@@ -8,12 +8,8 @@ addressLineOne: 59-319 Alapio Rd
 addressLineTwo: Haleiwa, HI 96712
 googleMapsLink: https://goo.gl/maps/y5ezvvQA6pzJmuH29
 facebookLink: https://www.facebook.com/
-twitterLink: None
-instagramLink: |-
-  
-  None
-youtubeLink: |-
-  
-  None
-vimeoLink: https://www.vimeo.com/
+twitterLink: ""
+instagramLink: ""
+youtubeLink: ""
+vimeoLink: ""
 ---
