@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
-import './picture-cta.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import "./picture-cta.scss";
 
 export const PictureCTA = ({ to, image, title }) => (
   <Link to={to}>
@@ -22,8 +22,8 @@ export const PictureCTA = ({ to, image, title }) => (
 
 export const PictureCTAContainer = ({ items }) => (
   <div className="picture-container">
-    {items.map((item) => (
-      <PictureCTA {...item} />
+    {items.map((item, i) => (
+      <PictureCTA key={i} {...item} />
     ))}
   </div>
 );
@@ -41,7 +41,7 @@ PictureCTAContainer.propTypes = {
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
         .isRequired,
       title: PropTypes.string.isRequired,
-    }),
+    })
   ).isRequired,
 };
 

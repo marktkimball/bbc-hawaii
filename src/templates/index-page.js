@@ -33,8 +33,10 @@ export const IndexPageTemplate = ({
         <h1 className="headline-text jumbotron-title-text">{title}</h1>
       </div>
       <div className="jumbotron-info-text-container">
-        {infoText.map((text) => (
-          <h2 className="info-text headline-text">{text}</h2>
+        {infoText.map((text, i) => (
+          <h2 key={`${text}-${i}`} className="info-text headline-text">
+            {text}
+          </h2>
         ))}
       </div>
     </div>
