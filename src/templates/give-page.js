@@ -18,7 +18,7 @@ export const GivePageTemplate = ({
       <MiniHero image={GiveImage} title={title} subtitle={subtitle} />
       <section className="section section--gradient">
         <PageContent className="content about-subsection" content={content} />
-        <div className="paypal-container">
+        {/* <div className="paypal-container">
           <div className="depth-3 paypal-button">
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -50,7 +50,7 @@ export const GivePageTemplate = ({
               />
             </form>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );
