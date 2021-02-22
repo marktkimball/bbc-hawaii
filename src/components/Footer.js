@@ -14,7 +14,7 @@ export const Footer = ({
   addressLineTwo,
   googleMapsLink,
   emailAddress,
-  serviceTime,
+  services,
   phoneNumber,
   facebookLink,
   twitterLink,
@@ -64,7 +64,9 @@ export const Footer = ({
         <div className="footer-list-group">
           <h4>Visit</h4>
           <ul className="footer-link-list contact-list">
-            <li>{serviceTime}</li>
+            {services.map((service, i) => (
+              <li key={i}>{service}</li>
+            ))}
             <li>
               <a
                 className="visit-us-link"
@@ -188,7 +190,7 @@ export const ConnectedFooter = () => (
           frontmatter: { type: { eq: "page-content" }, name: { eq: "footer" } }
         ) {
           frontmatter {
-            serviceTime
+            services
             phoneNumber
             emailAddress
             addressLineOne

@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 footer.footer {
-  padding: 3rem 0rem;
+  padding: 3rem 0;
   background-color: $brand-primary;
 }
 
@@ -98,6 +98,10 @@ footer.footer {
 }
 
 @media only screen and (max-width: 767px) {
+  footer.footer {
+    padding: 3rem 1.2rem;
+  }
+
   .footer-list-container {
     flex-direction: column;
     text-align: center;

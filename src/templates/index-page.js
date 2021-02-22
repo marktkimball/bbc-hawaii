@@ -3,15 +3,14 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PictureCTAContainer from "../components/PictureCTA";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import AboutUsImage from "../img/beach-from-water.jpg";
 import EventsImage from "../img/beach-campfire.jpg";
 import WelcomeImage from "../img/aloha-tower.jpg";
 
 export const IndexPageTemplate = ({
-  currentSermonImage,
   image,
   infoText,
+  logo,
   missionStatement,
   missionSubStatement,
   title,
@@ -25,11 +24,11 @@ export const IndexPageTemplate = ({
         })`,
       }}
     >
-      <div
-        style={{
-          maxWidth: "80%",
-        }}
-      >
+      <div className="home-jumbotron-title-container">
+        <img
+          alt="logo"
+          src={!!logo.childImageSharp ? logo.childImageSharp.fluid.src : logo}
+        />
         <h1 className="headline-text jumbotron-title-text">{title}</h1>
       </div>
       <div className="jumbotron-info-text-container">
@@ -45,14 +44,6 @@ export const IndexPageTemplate = ({
         <h1 className="title headline-text main-pitch">{missionStatement}</h1>
         <p className="mission-sub-statement">{missionSubStatement}</p>
       </div>
-      {currentSermonImage && (
-        <div className="section current-sermon-container">
-          <h2 className="alt-headline-text current-sermon-title">
-            Current sermon series:
-          </h2>
-          <PreviewCompatibleImage imageInfo={currentSermonImage} />
-        </div>
-      )}
       <PictureCTAContainer
         items={[
           { image: WelcomeImage, title: "I'm New", to: "/im-new" },
@@ -65,7 +56,6 @@ export const IndexPageTemplate = ({
 );
 
 IndexPageTemplate.propTypes = {
-  currentSermonImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   infoText: PropTypes.arrayOf(PropTypes.string),
   missionStatement: PropTypes.string,
@@ -77,11 +67,14 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout announcementTitle={frontmatter.announcementTitle}>
+    <Layout
+      announcementTitle={frontmatter.announcementTitle}
+      showAnnoucements={frontmatter.showAnnoucements}
+    >
       <IndexPageTemplate
-        currentSermonImage={frontmatter.currentSermonImage}
         image={frontmatter.image}
         infoText={frontmatter.infoText}
+        logo={frontmatter.logo}
         missionStatement={frontmatter.missionStatement}
         missionSubStatement={frontmatter.missionSubStatement}
         title={frontmatter.title}
@@ -109,16 +102,17 @@ export const pageQuery = graphql`
         missionStatement
         missionSubStatement
         title
-        currentSermonImage {
+        showAnnoucements
+        image {
           childImageSharp {
-            fluid(maxWidth: 720, quality: 100) {
+            fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        image {
+        logo {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 600, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

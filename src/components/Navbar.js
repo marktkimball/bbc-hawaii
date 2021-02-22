@@ -28,13 +28,13 @@ const Navbar = () => (
           <Link to="/events">Events</Link>
         </li>
       </ul>
-      <ul>
+      {/* <ul>
         <li className="nav-item-cta-container">
           <Link className="nav-item-cta" to="/give">
             Giving
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </nav>
 );

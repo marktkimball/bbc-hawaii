@@ -7,11 +7,11 @@ items:
   - image: /img/clock.png
     lead: When do you meet?
     text: >
-      Our main Sunday service is at 10am. ​We also have a Sunday evening service at 6pm and a midweek service Wednesdays at 6:30pm.
+      Our main Sunday service is at 10am. ​We also have a midweek service Wednesdays at 7pm.
   - image: /img/map.png
     lead: Where do I go?
     text: >
-      Our church is located at: 123 Sunset Avenue, Honolulu, HI 99999 Once you arrive, look for the large tent and someone will meet you to help you with any questions you may have.
+      Our church is located at: 59-319 Alapio Road, Haleiwa, HI 96712. Once you arrive, look for the large tent and someone will meet you to help you with any questions you may have.
   - image: /img/bible_open.png
     lead: Should I bring my Bible?
     text: >
@@ -23,10 +23,7 @@ items:
   - image: /img/shirt_icon.png
     lead: How should I dress?
     text: >
-      At Bible Baptist Church, we want you to come in modest attire. Our
-      ministry leaders and many in our church family dress in more traditional
-      “Sunday” dress; however, our main goal is that you would feel welcome and
-      comfortable on your visit.
+      Many people come dressed in nice Hawaiian attrive as if you were visiting a nice restaurant. But we would be happy for you to attend whether you dress this way or not. We'd like to not be overly formal, but certainly modest and respectful to the Lord and his people.
   - image: /img/baby_bottle.png
     lead: Do you have a nursery?
     text: >

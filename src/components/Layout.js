@@ -6,7 +6,7 @@ import "./all.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { Link, withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ announcementTitle, children }) => {
+const TemplateWrapper = ({ announcementTitle, children, showAnnoucements }) => {
   const { title, description } = useSiteMetadata();
 
   return (
@@ -50,7 +50,7 @@ const TemplateWrapper = ({ announcementTitle, children }) => {
         />
       </Helmet>
       <Navbar />
-      {announcementTitle && (
+      {showAnnoucements && (
         <Link
           className="depth-2 special-announcements-banner"
           to="/announcements"
