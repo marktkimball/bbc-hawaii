@@ -5,7 +5,7 @@ infoText:
   - Pupukea Hawaii
   - Sunday Bible Study - 10am
 image: /img/hawaii-sunset.jpg
-logo: /img/bbc_logo.jpg
+logo: /img/bbc-logo.png
 missionStatement: The righteous shall flourish like the palm tree.
 missionSubStatement: Psalm 92:12a
 announcementTitle: Special Announcements

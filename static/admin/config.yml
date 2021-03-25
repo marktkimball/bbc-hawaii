@@ -54,11 +54,6 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Info Text, name: infoText, widget: list }
           - { label: Image, name: image, widget: image }
-          - {
-              label: Current Semon Image (optional),
-              name: currentSermonImage,
-              widget: image,
-            }
           - { label: Logo, name: logo, widget: image }
           - {
               label: "Mission Statement",
@@ -79,6 +74,7 @@ collections:
               label: Show Announcements,
               name: showAnnouncements,
               widget: boolean,
+              required: false,
             }
       - file: "src/pages/about/index.md"
         label: "About"
