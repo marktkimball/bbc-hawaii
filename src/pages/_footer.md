@@ -2,7 +2,7 @@
 name: footer
 type: page-content
 services:
-  - "Sunday: Bible study @ 11am"
+  - "Sunday: Bible study @ 10am"
   - Wednesday Bible study @ 7pm
 phoneNumber: (808) 268-3115 (call or text)
 emailAddress: contact@bbchawaii.com (will be working soon)
