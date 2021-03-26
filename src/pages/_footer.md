@@ -2,11 +2,10 @@
 name: footer
 type: page-content
 services:
-  - "Sunday: 10am Sunday School"
-  - "Sunday: 11am Main Service"
-  - "Wednesday: 7pm"
-phoneNumber: (808) 268-3115
-emailAddress: contact@bbchawaii.com
+  - "Sunday: Bible study @ 11am"
+  - Wednesday Bible study @ 7pm
+phoneNumber: (808) 268-3115 (call or text)
+emailAddress: contact@bbchawaii.com (will be working soon)
 addressLineOne: 59-319 Alapio Rd
 addressLineTwo: Haleiwa, HI 96712
 googleMapsLink: https://goo.gl/maps/y5ezvvQA6pzJmuH29
