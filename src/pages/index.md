@@ -1,13 +1,14 @@
 ---
 templateKey: index-page
-title: Bible Baptist Church Startup
+title: ...
 infoText:
   - Pupukea Hawaii
   - Sunday Bible Study - 10am
 image: /img/hawaii-sunset.jpg
-logo: /img/bbc-logo.png
 missionStatement: The righteous shall flourish like the palm tree.
+showAnnoucements: false
+logo: /img/bbc-logo.png
 missionSubStatement: Psalm 92:12a
 announcementTitle: Special Announcements
-showAnnoucements: false
+showAnnouncements: false
 ---
