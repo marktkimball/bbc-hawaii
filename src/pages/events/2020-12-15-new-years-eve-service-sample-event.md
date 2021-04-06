@@ -1,14 +1,14 @@
 ---
 templateKey: event-item
-title: New Years Eve Service (sample event)
+title: Sample event 2
 date: 2021-01-01T06:00:42.785Z
-description: Celebrate the New Years
+description: Sample
 featuredEvent: false
-location: Fellowship hall
-address: 123 Sunset Blvd, Honolulu, HI 99999
+location: Sample
+address: Sample
 tags:
   - prayer
   - family
   - food
 ---
-We will gather and pray in the New Year.
+Sample
