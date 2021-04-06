@@ -12,7 +12,7 @@ items:
     lead: Where do I go?
     text: >
       Our gathering is located at: 59-319 Alapio Road, Haleiwa, HI 96712. Once
-      you arrive, look for the large tent and someone will meet you to help you
+      you arrive, pull into the drive way and someone will direct you & help you
       with any questions you may have.
   - image: /img/bible_open.png
     lead: Should I bring my Bible?
