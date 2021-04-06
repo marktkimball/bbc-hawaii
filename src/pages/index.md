@@ -3,7 +3,7 @@ templateKey: index-page
 title: ...
 infoText:
   - Pupukea Hawaii
-  - Sunday Bible Study - 10am
+  - Sunday gathering - 10am
 image: /img/hawaii-sunset.jpg
 missionStatement: The righteous shall flourish like the palm tree.
 showAnnoucements: false
