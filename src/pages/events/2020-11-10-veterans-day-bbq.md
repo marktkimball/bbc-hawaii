@@ -1,14 +1,13 @@
 ---
 templateKey: event-item
-title: Veterans Day BBQ (sample event)
+title: Sample event
 date: 2020-11-10T13:30:00.000Z
-description: This is a sample event to show you how to make events. This part is the description.
+description: Sample
 featuredEvent: false
-location: Bible Baptist Church
-address: 1234 North Shore Drive, Honolulu, HI
+location: Sample
+address: Sample
 tags:
   - Families
   - Cookout
 ---
-
-BBQ for veterans day.
+Sample
