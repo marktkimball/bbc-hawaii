@@ -2,11 +2,10 @@
 name: footer
 type: page-content
 services:
-  - "Sunday: Bible study @ 10am"
-  - Wednesday Bible study @ 7pm
+  - Call us for times of fellowship
 phoneNumber: (808) 268-3115 (call or text)
 emailAddress: contact@bbchawaii.com
-addressLineOne: 59-319 Alapio Rd
+addressLineOne: Call for directions
 addressLineTwo: Haleiwa, HI 96712
 googleMapsLink: https://goo.gl/maps/y5ezvvQA6pzJmuH29
 facebookLink: ""
