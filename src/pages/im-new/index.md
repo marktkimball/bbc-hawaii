@@ -6,14 +6,14 @@ subtitle: What to expect
 items:
   - image: /img/clock.png
     lead: When do you meet?
-    text: |
-      Friends of ours gather at 10am. ​We also meet Wednesdays at 7pm.
-  - image: /img/map.png
-    lead: Where do I go?
     text: >
-      Our gathering is located at: 59-319 Alapio Road, Haleiwa, HI 96712. Once
-      you arrive, pull into the drive way and someone will direct you & help you
-      with any questions you may have.
+      Please call us about visiting with you. We'd love to make your
+      acquaintance. 
+  - image: /img/map.png
+    lead: Where can we meet?
+    text: >
+      Please give us a call so we can agree upon a place & time to meet. This is
+      only temporary until we can secure a regular meeting facility. 
   - image: /img/bible_open.png
     lead: Should I bring my Bible?
     text: >
@@ -39,4 +39,4 @@ items:
       nursery for babies and toddlers. We love children here, so don't be shy
       about bringing your whole family!
 ---
-We are so happy that you are interested in joining us on Sunday! We are new to the North Shore of Oahu and look forward to your visit. Below you will find helpful information about us. Please be aware that as we are brand new, we currently meet in our house or a nice open tent on our property depending on the weather. Visit our About page to learn more about our story.
+We are so happy that you are interested in joining us on Sunday! We are new to Oahu and look forward to meeting you. Below you will find helpful information about us. Please be aware that as we are brand new, we currently are meeting with those interested at various locations. Visit our About page to learn more about our story.
