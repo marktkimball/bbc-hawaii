@@ -4,7 +4,7 @@ path: /leadership
 title: Leadership
 subtitle: Meet the Pastor
 staff:
-  - name: Thomas Castellaw
+  - name: Thomas W. Castellaw
     subtitle: Senior Pastor
     image: /img/castellaws.jpg
     bio: >
