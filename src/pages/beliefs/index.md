@@ -4,6 +4,8 @@ path: /beliefs
 title: What We Believe
 subtitle: Thy Word Is Truth
 ---
+#### If you have questions about any of these matters, we'd be happy to meet and discuss them with you as we're able. 
+
 ## The Bible
 
 ​​We believe the Scriptures of the Old and New Testament to be the inspired word of God, the final authority for faith, life and church establishment, inerrant in the original writings, and preserved without error in the English King James Bible. 2 Tim. 3:16, 2 Pet. 1:20-21, Psa. 12:6-7, Lk. 21:33, Isa. 8:20.
