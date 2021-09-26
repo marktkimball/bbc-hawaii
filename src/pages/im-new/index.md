@@ -17,7 +17,7 @@ items:
     text: >
       After languishing for nearly a year looking for a property, the Lord has
       just given us our very own church building located at 455 Kilani Ave. in
-      Wahiawa across from Zippys, very near Tamuras Grocery store. 
+      Wahiawa across from Zippys, very near Tamura's grocery store. 
   - image: /img/bible_open.png
     lead: Should I bring my Bible?
     text: >
