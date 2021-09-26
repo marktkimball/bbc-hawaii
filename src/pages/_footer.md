@@ -8,7 +8,7 @@ emailAddress: contact@bbchawaii.com
 addressLineOne: 455 Kilani Ave.
 addressLineTwo: "Wahiawa, Hawaii 96786 "
 googleMapsLink: https://goo.gl/maps/4szfs4iwKUac2dYq7
-facebookLink: ""
+facebookLink: https://www.facebook.com/BBCHawaii
 twitterLink: ""
 instagramLink: ""
 youtubeLink: ""
