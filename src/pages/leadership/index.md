@@ -4,13 +4,13 @@ path: /leadership
 title: Leadership
 subtitle: Meet the Pastor
 staff:
-  - name: Thomas & Angie Castellaw
-    subtitle: Teaching Pastor
+  - name: Thomas Castellaw
+    subtitle: Senior Pastor
     image: /img/castellaws.jpg
     bio: >
-      Pastor & Mrs. Angie are happy to be starting a church here in Oahu. If you
-      like tell-it-like-it-is, plain Bible teaching and preaching, we might have
-      the church for you.​
+      Pastor & Mrs. Angie are happy to be serving here on Oahu. If you like
+      tell-it-like-it-is, plain Bible teaching and preaching, we might be the
+      church for you.​
 ---
 # Why we're here
 
