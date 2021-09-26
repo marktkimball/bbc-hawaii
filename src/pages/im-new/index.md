@@ -39,15 +39,15 @@ items:
       dress this way or not. We'd like to not be overly formal, but certainly
       modest and respectful to the Lord and his people. The idea is simple: the
       Lord gave us his best & so we think it befitting to give him our best. If
-      your best is the widows two mites, you can rest assured it will please the
-      Lord very much! That's all that matters! 
+      your best is the widow's two mites, you can rest assured it will please
+      the Lord very much! That's all that matters! 
   - image: /img/baby_bottle.png
     lead: Do you have a nursery?
     text: >
-      Yes we do. It is not as perfect as we want it to be yet, but it is clean &
-      safe. As our church grows, we want things to become as good as they can.
-      Jesus loves the little children & said, "Suffer the little children to
-      come unto me and forbid them not", so don't be shy about bringing your
-      whole family! If you have concerns, give us a call!
+      Yes, we do. It is not as perfect as we want it to be yet, but it is clean
+      & safe. As our church grows, we want things to become as optimal as they
+      can be. Jesus loves the little children & said, "Suffer the little
+      children to come unto me and forbid them not", so don't be shy about
+      bringing your whole family! If you have concerns, give us a call!
 ---
 We are very happy that you are interested in joining us on Sunday! We are looking forward to meeting you. Below you will find helpful information about us. Please be aware that our church is very young but growing. Church is not "us" the staff and "you" the customer. We see church as a family of people labouring & sacrificing together to build the work of God together. We are mere sinners saved by grace but we will do our best as often as we can to make you comfortable and welcome. Hope to see you soon! Call or text (almost) any time!
