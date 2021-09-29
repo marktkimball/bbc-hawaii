@@ -6,7 +6,7 @@ subtitle: Meet the Pastor
 staff:
   - name: Thomas W. Castellaw
     subtitle: Senior Pastor
-    image: /img/avatar-placeholder.png
+    image: /img/castellaws.jpg
     bio: >
       Pastor & Mrs. Angie are happy to be serving here on Oahu. If you like
       tell-it-like-it-is, plain Bible teaching and preaching, we might be the
