@@ -1,12 +1,16 @@
 ---
 templateKey: event-item
-title: Sample event 3
-date: 2020-12-24T13:30:00.000Z
-description: Sample
+title: Sunday Morning
+date: 2021-01-03T20:00:00.000Z
+description: Sunday School at 10:00 am & Worship Service at 11:00 am
 featuredEvent: true
-location: Sample
-address: Sample
+location: Bible Baptist Church
+address: 455 Kilani Ave, Wahiawa
 tags:
-  - Families
+  - Preaching
+  - Bible Study
+  - Fellowship
+  - Children's church
+  - Bible literature available
 ---
-Sample
+While visitors are welcome at all times, Sunday morning is probably the best time to get to know a church for the first time. Come join us soon!
