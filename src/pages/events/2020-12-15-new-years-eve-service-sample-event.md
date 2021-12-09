@@ -1,14 +1,14 @@
 ---
 templateKey: event-item
-title: Sample event 2
-date: 2021-01-01T06:00:42.785Z
-description: Sample
+title: Sunday Night
+date: 2021-01-04T03:30:00.000Z
+description: Bible Questions & Answers
 featuredEvent: false
-location: Sample
-address: Sample
+location: Bible Baptist Church
+address: 455 Kilani Ave, Wahiawa
 tags:
-  - prayer
-  - family
-  - food
+  - Bible study
+  - fellowship
+  - child care provided
 ---
-Sample
+Sunday night is usually dedicated to studying a book of the Bible verse by verse. We are taking a break from this custom and are answering Bible questions of the congregation. Very interested to hear the different questions that are being asked, and a blessing to hear answers from the Word of God!
