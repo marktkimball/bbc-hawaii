@@ -1,13 +1,14 @@
 ---
 templateKey: event-item
-title: Sample event
-date: 2020-11-10T13:30:00.000Z
-description: Sample
+title: Wednesday Night
+date: 2021-01-07T04:30:00.000Z
+description: Bible Study & Prayer Meeting
 featuredEvent: false
-location: Sample
-address: Sample
+location: Bible Baptist Church
+address: 455 Kilani Ave. Wahiawa
 tags:
-  - Families
-  - Cookout
+  - Bible study
+  - Prayer meeting
+  - Child care provided
 ---
-Sample
+Join us for Bible teaching and yes, old fashioned prayer meeting. We collect prayer requests and intercede for one another before God. Prayer makes a difference!
