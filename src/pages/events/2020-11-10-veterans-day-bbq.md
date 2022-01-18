@@ -1,7 +1,7 @@
 ---
 templateKey: event-item
 title: Wednesday Night
-date: 2021-01-07T04:30:00.000Z
+date: 2021-02-04T04:30:00.000Z
 description: Bible Study & Prayer Meeting
 featuredEvent: false
 location: Bible Baptist Church
