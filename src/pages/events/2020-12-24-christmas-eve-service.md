@@ -1,7 +1,7 @@
 ---
 templateKey: event-item
 title: Sunday Morning
-date: 2021-01-03T20:00:00.000Z
+date: 2021-02-07T20:00:00.000Z
 description: Sunday School at 10:00 am & Worship Service at 11:00 am
 featuredEvent: true
 location: Bible Baptist Church
