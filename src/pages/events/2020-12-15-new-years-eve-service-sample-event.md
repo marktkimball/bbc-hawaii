@@ -1,7 +1,7 @@
 ---
 templateKey: event-item
 title: Sunday Night
-date: 2021-01-04T03:30:00.000Z
+date: 2022-02-07T03:30:00.000Z
 description: Bible Questions & Answers
 featuredEvent: false
 location: Bible Baptist Church
