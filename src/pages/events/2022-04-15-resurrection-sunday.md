@@ -16,4 +16,4 @@ tags:
   - Church
   - ""
 ---
-Our church is very young and in the processes of getting a face lift. Come worship the King with us, but please look past the dust from our renovations. We're trying to keep a balance and are looking forward to being finished.
+Our church is very young and in the processes of getting a face lift. Come worship the King with us, but please look past the dust from our renovations. We're trying to keep a balance and are looking forward to being finished. Until then, we'll go on singing, praying, preaching and serving with all our hearts! If you love Jesus Christ and his Word or would like to know more about Him, come join us!
