@@ -7,9 +7,11 @@ items:
   - image: /img/clock.png
     lead: When do you meet?
     text: |
-      Sunday at 10:00 AM 
+      Sunday school at 10:00 AM (discipleship class; 
 
-      & 
+      Sunday Morning preaching at 11:00 AM; 
+
+      Sunday Night at 5:30 PM (currently open forum Question & Answer); 
 
       Wednesday Bible study & prayer meeting at 6:30 PM. 
   - image: /img/map.png
